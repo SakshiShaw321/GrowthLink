@@ -1,4 +1,4 @@
-ntroduction¶
+Introduction
 In this project, I will implement credit card fraud detection using different machine learning models and techniques to achieve maximum accuracy. The focus will be on writing clean, efficient, and concise code. If you find my work helpful, please consider upvoting.
 
 Imagine receiving a call from your bank, where a customer service representative informs you that your credit card is about to expire in a week. You check your card details and find that it will expire in eight days. To renew your membership, the representative asks for details like your card number, expiry date, and CVV. Would you share these details?
@@ -29,8 +29,10 @@ Log transformation was applied to the Amount column to reduce skewness and impro
 Model Performance
 Classification Report shows the effectiveness of the model in identifying fraudulent transactions.
 
-Potential Enhancements
-Experiment with more advanced models such as Random Forest, XGBoost, or Neural Networks for better fraud detection.
-Apply feature selection techniques to eliminate redundant features and improve efficiency.
+Potential Enhancements.
 Fine-tune SMOTE parameters to avoid overfitting and ensure better generalization.
 Perform hyperparameter tuning on logistic regression to optimize its performance.
+
+My fraud detection model achieved the following results:
+Training Accuracy: 98.64%
+Test Accuracy: 98.65%
